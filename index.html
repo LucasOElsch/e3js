@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pizzas</title>
+  </head>
+  <body>
+    <form id="myForm">
+      <div class="input-container">
+        <input
+          type="text"
+          id="search"
+          placeholder="Ingrese el codigo de la pizza"
+        />
+        <p id="codigoErroneo"></p>
+      </div>
+      <label for="btn-search"><img src="img/lupa.svg" alt="" /></label>
+      <button type="button" id="btn-search">Buscar</button>
+    </form>
+
+    <section class="container">
+      <div class="pizza-container">
+        <div class="pizza pizza-5">
+          <img src="img/4quesos.png" alt="" id="pizzaImagen" />
+          <div class="pizza-info pizza-info1">
+            <p id="pizzaNombre">Pizza de 4 quesos</p>
+            <span id="pizzaPrecio">$1380</span>
+          </div>
+        </div>
+
+        <!--
+            <div class="pizza pizza-1" id="1">
+                <img src="img/muzzarella.png" alt="">
+                <div class="pizza-info pizza-info1">
+                    <p>Pizza de muzzarella</p>
+                    <span>$500</span>
+                </div> 
+
+                <div class="pizza pizza-2" id="2">
+                    <img src="img/anana.png" alt="">
+                    <div class="pizza-info pizza-info1">
+                        <p>Pizza de Ananá</p>
+                        <span>$600</span>
+                    </div>
+
+                    <div class="pizza pizza-3" id="3">
+                        <img src="img/cebolla.png" alt="">
+                        <div class="pizza-info pizza-info1">
+                            <p>Pizza de cebolla</p>
+                            <span>$1500</span>
+                        </div>
+
+                        <div class="pizza pizza-4" id="4">
+                            <img src="img/especial.png" alt="">
+                            <div class="pizza-info pizza-info1">
+                                <p>Pizza especial</p>
+                                <span>$1000</span>
+                            </div>
+                        </div> 
+
+                        <div class="pizza pizza-5" id="5">
+                            <img src="img/4quesos.png" alt="">
+                            <div class="pizza-info pizza-info1">
+                                <p>Pizza de 4 quesos</p>
+                                <span>$1380</span>
+                            </div>
+                    </div>
+                    -->
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
